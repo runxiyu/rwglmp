@@ -1,5 +1,5 @@
-e: e.c monocypher.o monocypher.h
-	$(CC) -o $@ e.c monocypher.o
+e: e.c lib/monocypher.o lib/monocypher.h
+	$(CC) -o $@ e.c lib/monocypher.o
 
-monocypher.o: monocypher.c
-	$(CC) -c -o $@ monocypher.c
+lib/monocypher.o: lib/monocypher.c
+	$(CC) -c -o $@ lib/monocypher.c

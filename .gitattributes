@@ -1,3 +1,4 @@
 * linguist-detectable
 *.c linguist-language=c
 *.h linguist-language=c
+lib/* linguist-vendored
