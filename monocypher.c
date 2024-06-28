@@ -1,4 +1,6 @@
 // Monocypher version __git__
+// 
+// vim: filetype=c
 //
 // This file is dual-licensed.  Choose whichever licence you want from
 // the two licences listed below.
